@@ -1,128 +1,216 @@
-            html, body {
-              font-family: Helvetica;
-              font-size: 18px;
-              margin: 0;
-              background-color: #fff;
-              line-height: 1.4em;
-            }
+html, body {
+  display: block;
+  font-family: Helvetica;
+  font-size: 18px;
+  margin: 0;
+  background-color: #000;
+  letter-spacing: .0625rem;
+}
 
-            .wrapper {
-              border: 3px dashed limegreen;
-              margin: 0 auto;
-              width: 960px;
-            }
-            /*Header Start*/
+.wrapper {
+  /*border: 3px dashed limegreen;*/
+  margin: 0 auto;
+  background-color: #fff;
+}
 
-            .header {
-              align-items: center;
-              background-color: #000;
-              display: flex;
-              height: 2.32rem;
-              margin-left: 0;
-              width: 100%;
-            }
 
-            .header img {
-              height: 1.5rem;
-              margin: 0 1rem 0 .5rem;
-            }
+/*Header Start*/
 
-            .header span {
-              color: white;
-              font-family: Helvetica;
-              font-size: 1rem;
-              margin: .66rem 0;
-            }
+.header-container {
+  width: 100%;
+  background-color: #000;
+}
 
-            .main-banner {
-              display: flex;
-              align-items: center;
-              background-image: url("../images/moto.jpeg");
-              background-size: auto;
-              height: 25rem;
-              width: 100%;
-            }
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  height: 2.32rem;
+}
 
-            .banner-title {
-              background-color: #000;
-              color: #fff;
-              display: block;
-              font-family: Helvetica;
-              font-weight: bold;
-              height: 9rem;
-              width: 20rem;
-              padding: 0rem 2.5rem 1.5rem 2rem;
-            }
+.header img {
+  height: 1.5rem;
+  margin: 0 1rem 0 .5rem;
+}
 
-            h4 {
-              font-size: 1rem;
-              margin-bottom: .5rem;
-              margin-top: 2rem;
-            }
+.header span {
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin: .66rem 0;
+}
 
-            h1 {
-              font-size: 2rem;
-              line-height: 2rem;
-            }
+.main-banner {
+  display: block;
+  /*align-items: center;*/
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
 
-            .nav {
-              display: block;
-              background-color: firebrick;
-              height: 2.5rem;
-              width: 100%;
-            }
+.title-container {
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
+}
 
-            .nav ul {
-              display: flex;
-              justify-content: space-around;
-              align-items: center;
-              color: #fff;
-              font-weight: 400;
-              padding-top: .75rem;
-              padding-bottom: .75rem;
-            }
+.banner-title {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  position: relative;
+  top: 9rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  height: 9rem;
+  width: 20rem;
+  padding: 2rem 2.5rem 1rem 3rem;
+}
 
-            .nav li {
-              display: inline-block;
-            }
-            /*Header End*/
-            /*Items Start*/
+h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
 
-            .items-container {
-              max-width: 960px;
-              display: block;
-              margin: 0 auto;
-            }
+h1 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
 
-            .items {
-              display: flex;
-              justify-content: space-between;
-              margin: 3em 0 0 0;
-            }
+.nav {
+  display: block;
+  background-color: firebrick;
+  height: 2.5rem;
+}
 
-            .item {
-              width: 30%;
-              display: block;
-            }
+.nav ul {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
 
-            .item-img {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              height: 9em;
-              padding: 2em 0;
-              border: 4px solid #000;
-            }
+.nav li {
+  display: inline-block;
+}
 
-            .item-img img {
-              max-width: 8em;
-              border-style: none;
-            }
 
-            .caption {
-              display: block;
-              background-color: #000;
-              color: #fff;
-              text-align: center;
-              padding: .5em;
-            }
+/*Header End*/
+
+
+/*Items Start*/
+
+.items-container {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.item {
+  width: 30%;
+  display: block;
+}
+
+.item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid #000;
+}
+
+.item-img img {
+  max-width: 8rem;
+  border-style: none;
+}
+
+.caption {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: .5rem;
+}
+
+
+/*Items End */
+
+
+/*Location Start*/
+
+.contact-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+.info {
+  width: 35%;
+  display: block;
+}
+
+.info .title {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin-bottom: .5rem;
+}
+
+
+/*Location End*/
+
+
+/*Footer*/
+
+footer {
+  /*display: flex;
+  align-items: center;*/
+  display: block;
+  background-color: #000;
+  color: #fff;
+  margin-top: 4rem;
+  height: 5rem;
+  padding: 5rem 0;
+}
+
+.copyright {
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+/*Desktop End*/
+
+
+/*Media Queries Start*/
+
+
+/*Tablet*/
+
+
+/*Tablet End*/
